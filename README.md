@@ -14,8 +14,8 @@ A ruby gem for consuming Firefly API. Aninipot is a Cebuano term of Firefly.
     $ gem install aninipot
 
 ## Configuration
-The configuration below will be provided by Smart Devnet. Apply for access (http://www.smart.com.ph/developer)
-  
+Get your API keys here (http://www.fireflyapi.com/)
+
     client = Aninipot::Client.configure do |config|
       config.api = ''
       config.from = 2337
