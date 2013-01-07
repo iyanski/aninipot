@@ -9,7 +9,7 @@ describe Aninipot do
 
   def initialize_rest_client
     Aninipot::Client.configure do |config|
-      config.api = config_file['api'].to_s
+      config.api = config_file['api']
       config.from = config_file['from']
     end
   end

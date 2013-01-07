@@ -1,6 +1,3 @@
-aninipot
-============
-
 #Aninipot
 
 A ruby gem for consuming Firefly API. Aninipot is a Cebuano term of Firefly.
@@ -16,9 +13,11 @@ A ruby gem for consuming Firefly API. Aninipot is a Cebuano term of Firefly.
 ## Configuration
 Get your API keys here (http://www.fireflyapi.com/)
 
+Masking is now supported.
+
     client = Aninipot::Client.configure do |config|
       config.api = ''
-      config.from = 2337
+      config.from = MASKNAME
     end
 
 ## Sending SMS
