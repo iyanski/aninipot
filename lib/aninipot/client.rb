@@ -3,7 +3,7 @@ module Aninipot
     include ClassSupportMixin
     include Aninipot::Configuration
   
-    set_attributes :host => 'fireflyapi.com',
+    set_attributes :host => 'www.semaphore.co',
       :port => '80',
       :api => '',
       :from => ''

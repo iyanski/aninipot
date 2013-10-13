@@ -1,6 +1,8 @@
 #Aninipot
 
-A ruby gem for consuming Firefly API. Aninipot is a Cebuano term of Firefly.
+A ruby gem for consuming Semaphore API. Firefly API has been changed to Semaphore. 
+
+Aninipot is a Cebuano term of Firefly. 
 
 ## Requirements
 
@@ -11,7 +13,7 @@ A ruby gem for consuming Firefly API. Aninipot is a Cebuano term of Firefly.
     $ gem install aninipot
 
 ## Configuration
-Get your API keys here (http://www.fireflyapi.com/)
+Get your API keys here (http://semaphore.co/)
 
 Masking is now supported.
 

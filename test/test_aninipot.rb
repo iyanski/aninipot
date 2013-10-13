@@ -16,7 +16,7 @@ describe Aninipot do
 
   it 'should be able to send sms' do
     begin
-      response = @client.send_sms("+639275866897", "Test Data")
+      response = @client.send_sms("+639176230655", "Test Data")
     rescue Exception => e
       e.message.must_equal Aninipot::Response.new(200).to_s
     end
